@@ -1,0 +1,49 @@
+.modal-content {
+  svg {
+    display: block; 
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2, p {
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 24px;
+  }
+
+  p {
+    margin-top: 12px;
+    color: #737380;
+  }
+
+  .group-button {
+    display: flex;
+    grid-gap: 8px;
+    margin-top: 40px;
+    margin-bottom: 44px;
+    justify-content: center;
+
+    #button-cancel {
+      background-color: #DBDCDD;
+      color: #737380;
+      font-weight: 500;
+    }
+
+    #button-confirmation {
+      background-color: #E73F5D;
+    }
+  }
+}
+
+.react-responsive-modal-modal {
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-content {
+    min-width: 500px;
+  }
+}
