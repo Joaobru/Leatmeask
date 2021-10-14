@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img style="width:50%" alt="Logo" title="Logo" src="src/assets/images/logo.png">
+    <img style="width:50%" alt="Logo" title="Logo" src="src/assets/images/logo.svg">
 </h1>
 
 <p align="center"> 
@@ -21,24 +21,31 @@
     </tr>
     <tr>
       <td>
-          <img alt="Landing" title="Landing" style="width:200px" src="src/assets/images/landing.png">
+          <img alt="Landing" title="Landing" src="src/assets/images/landing.png">
       </td>
     </tr>
   </table>
 
 <table>
   <tr>
-    <th width="50%">
+    <th width="100%">
       Admin
-    </th>
-    <th width="50%">
-      Público
     </th>
   </tr>
   <tr>
     <td>
         <img alt="Exemplo do uso do site para o Admin" title="Admin" style="width:100%;" src="src/assets/gifs/leatmeask-admin.gif">
     </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th width="100%">
+      Público
+    </th>
+  </tr>
+  <tr>
     <td>
         <img alt="Exemplo do uso do site para o Público" title="Público" style="width:100%;" src="src/assets/gifs/leatmeask-audience.gif">
     </td>
