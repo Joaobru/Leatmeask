@@ -1,46 +1,96 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img style="width:50%" alt="Logo" title="Logo" src="src/assets/images/logo.png">
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"> 
+  O projeto tem o objetivo de auxiliar no controle de perguntas durante lives, 
+  te possibilitando criar uma sala, e deixar seu público criar as perguntas, 
+  como admin você pode excluir a pergunta, marcar como respondida e destacar.
+  Como público você pode criar e curtir perguntas.
 
-## Available Scripts
+  <br>
+  <a href="https://leatmeask-4458b.firebaseapp.com/" target="_blank">Acessar o LeatMeask</a>
+</p>
 
-In the project directory, you can run:
+## :computer: Aplicação Web
+  <table>
+    <tr>
+      <th width="100%">
+        Landing
+      </th>
+    </tr>
+    <tr>
+      <td>
+          <img alt="Landing" title="Landing" style="width:200px" src="src/assets/images/landing.png">
+      </td>
+    </tr>
+  </table>
 
-### `yarn start`
+<table>
+  <tr>
+    <th width="50%">
+      Admin
+    </th>
+    <th width="50%">
+      Público
+    </th>
+  </tr>
+  <tr>
+    <td>
+        <img alt="Exemplo do uso do site para o Admin" title="Admin" style="width:100%;" src="src/assets/gifs/leatmeask-admin.gif">
+    </td>
+    <td>
+        <img alt="Exemplo do uso do site para o Público" title="Público" style="width:100%;" src="src/assets/gifs/leatmeask-audience.gif">
+    </td>
+  </tr>
+</table>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :bulb: Principais funcionalidades
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Cadastrar Salas.
 
-### `yarn test`
+* Cadastrar perguntas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Manipular as perguntas(Dar like, Marcar como respondido, deletar e destacar).
 
-### `yarn build`
+* Fechar sala.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :wrench: Pré-requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Node.js](https://nodejs.org/en/) e um editor para trabalhar com o código como o [VSCode](https://code.visualstudio.com/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :rocket: Para rodar a aplicação
 
-### `yarn eject`
+```bash
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Clone este repositório
+$ git clone https://github.com/Joaobru/Leatmeask.git
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd Leatmeask-master
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Execute o seguinte comando para instalar todas as dependências
+$ npm install ou yarn
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Entre na pasta src/services/firebase.ts e preencha os valores 
+# em vez de usar process.env.
 
-## Learn More
+# Rode o projeto com o seguinte comando.
+npm run start ou yarn start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Agora você pode acessar em localhost:3000.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+
+## 🛠 Tecnologias
+  * [React](https://pt-br.reactjs.org/);
+
+  * [TypeScript](https://www.typescriptlang.org/);
+
+  * [Firebase](https://firebase.google.com/?hl=pt);
+
+<h2> :book: Licença </h2>
+<p>Lançado em 2021 :book:</p></br>
+<p>Feito por João Paulo Brune Dos Santos. Este projeto está sobre a licença do MIT</p></br>
+<p>Dar uma :star: se este projeto te ajudou</p>
